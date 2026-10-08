@@ -72,8 +72,8 @@ graph LR
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/policepatelvijayprakashreddy-sys/real-time-sign-language-recognition.git
-cd real-time-sign-language-recognition
+git clone https://github.com/policepatelvijayprakashreddy-sys/Vox-Sign.git
+cd Vox-Sign
 ```
 
 ### 3. Install Dependencies
