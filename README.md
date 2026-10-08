@@ -1,10 +1,10 @@
-# Real-Time Sign Language to Text and Speech Conversion
+# Real-Time Sign Language Recognition
 
 An intelligent, real-time computer vision and machine learning application designed to bridge the communication gap between hearing/speech-impaired individuals and the broader community. The system captures American Sign Language (ASL) hand gestures through a standard webcam, classifies them into text, forms words and sentences, and vocalizes them using speech synthesis.
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 - **Real-Time Hand Landmark Tracking**: Utilizes Google MediaPipe Hands to detect 21 hand landmarks (42 normalized $x, y$ coordinates) with minimal latency.
 - **High-Accuracy Classification**: Powered by an optimized Random Forest classifier trained on 38 gesture classes.
@@ -20,7 +20,7 @@ An intelligent, real-time computer vision and machine learning application desig
 
 ---
 
-## 🗂️ Project Architecture & Workflow
+##  Project Architecture & Workflow
 
 ```mermaid
 graph LR
@@ -51,7 +51,7 @@ graph LR
 
 ---
 
-## 🖐️ Gesture Reference Guide
+## Gesture Reference Guide
 
 ### ASL Alphabets & Digits
 ![ASL Characters](ReadmeAssets/The-26-letters-and-10-digits-of-American-Sign-Language-ASL.png)
@@ -72,8 +72,8 @@ graph LR
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd Sign-Language-to-Text-and-Speech-main
+git clone https://github.com/policepatelvijayprakashreddy-sys/real-time-sign-language-recognition.git
+cd real-time-sign-language-recognition
 ```
 
 ### 3. Install Dependencies
@@ -91,7 +91,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Running the Application
+## Running the Application
 
 A pre-trained model (`model.p`) is already provided in the repository, allowing immediate execution without prior data collection.
 
@@ -112,7 +112,7 @@ python main.py
 
 ---
 
-## 🛠️ Retraining / Custom Dataset Pipeline
+## Retraining / Custom Dataset Pipeline
 
 To expand or retrain the model with your own gestures:
 
@@ -137,7 +137,7 @@ python trainClassifier.py
 
 ---
 
-## 💡 Troubleshooting & Notes
+## Troubleshooting & Notes
 
 - **Webcam Access**: Ensure no other application (Zoom, Teams, Browser) is using your webcam before running `main.py` or `collectImgs.py`.
 - **Lighting & Hand Visibility**: For optimal accuracy, position your hand within the frame in good lighting conditions with a clear contrast against the background.
