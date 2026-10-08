@@ -36,11 +36,7 @@ graph LR
 
 ```text
 ├── ReadmeAssets/           # Visual references for gestures and diagrams
-│   ├── Fullstop.jpg
-│   ├── J.jpg
-│   ├── Space.jpg
-│   ├── The-26-letters-and-10-digits-of-American-Sign-Language-ASL.png
-│   └── Z.jpg
+│   └── The-26-letters-and-10-digits-of-American-Sign-Language-ASL.png
 ├── collectImgs.py          # Script to collect custom dataset images via webcam
 ├── createDataset.py        # Extracts hand landmarks from collected images into data.pickle
 ├── main.py                 # Main real-time application with Tkinter GUI & TTS
@@ -55,11 +51,6 @@ graph LR
 
 ### ASL Alphabets & Digits
 ![ASL Characters](ReadmeAssets/The-26-letters-and-10-digits-of-American-Sign-Language-ASL.png)
-
-### Special Action Signs
-| Space Sign | Full Stop Sign | Sign for J | Sign for Z |
-| :---: | :---: | :---: | :---: |
-| ![SPACE](ReadmeAssets/Space.jpg) | ![Fullstop](ReadmeAssets/Fullstop.jpg) | ![J](ReadmeAssets/J.jpg) | ![Z](ReadmeAssets/Z.jpg) |
 
 ---
 
